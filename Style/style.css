@@ -1,0 +1,148 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sahitya&display=swap')
+
+
+* {
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+ text-decoration: none;
+}
+
+
+body {
+ font-size: 100%;
+ background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d8e 85.61%);
+}
+
+
+#Cabecalho {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ padding: 15px;
+}
+
+#Cabecalho_Imagem {
+  height: 55px;
+}
+
+#Cabecalho_Menu {
+  display: flex;
+  gap: 50px;
+}
+
+.Cabecalho_Links {
+  font-family: 'Righteous', cursive;
+  color: rgba(255, 255, 255, 0.922);
+  font-weight: 900;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.Cabecalho_Links:hover {
+  background-color: rgba(255, 255, 255, 0.105);
+}
+
+#Menu {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.913);
+  margin-bottom: 32px;
+}
+
+#Menu_Sessao1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#Menu_Sessao1_Texto {
+  margin-left: 100px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color:  rgba(255, 255, 255, 0.922);
+}
+
+#Menu_Sessao1_Texto1 {
+  font-family: 'Sahitya', serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+#Menu_Sessao1_Texto2 {
+  font-family: 'Righteous', cursive;
+  font-size: 32px;
+}
+
+#Menu_Sessao1_Texto2 {
+  font-family: 'Righteous', cursive;
+  font-size: 32px;
+}
+
+#Menu_Sessao1_texto3 {
+  background-color: rgba(255, 255, 255, 0.922);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  width: 190px;
+  height: 47px;
+  box-shadow: 3px 6px 3px rgba(9, 9, 9, 0.863);
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 25px;
+  color:  rgba(9, 9, 9, 0.863);
+  margin-top: 30px;
+}
+
+#Menu_Sessao1_texto3:hover {
+  background-color: rgba(255, 255, 255, 0.105);
+}
+
+#Menu_Imagem {
+  height: 520px;
+}
+
+#Menu_Sessao2 {
+  border-top: 0.4px solid rgba(255, 255, 255, 0.913);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-top: 40px;
+  font-family: 'Righteous', cursive;
+}
+
+#Menu_Sessao2_Texto1 {
+  color: rgba(255, 255, 255, 0.913);
+  font-weight: 400;
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: 'Righteous', cursive;
+}
+
+.Menu_Sessao2_Texto2 {
+  color: rgba(255, 255, 255, 0.913);
+  font-family: 'Sahitya', serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.Menu_Sessao2_TextoDecoracao {
+  text-decoration: underline;
+}
+
+
+#Rodape {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.913);
+  padding: 32px;
+}
+
+#Rodape_Imagem {
+  height: 200px;
+  width: 420px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
